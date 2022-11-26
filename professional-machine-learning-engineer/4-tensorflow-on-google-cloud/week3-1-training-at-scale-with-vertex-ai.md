@@ -1,8 +1,6 @@
 # Week3-1 Training at Scale with Vertex AI
 
-- [ ] Module Introduction, 18 
-
-sec
+- [ ] Module Introduction, 18sec
 
 ## Scaling TensorFlow with Vertex AI
 

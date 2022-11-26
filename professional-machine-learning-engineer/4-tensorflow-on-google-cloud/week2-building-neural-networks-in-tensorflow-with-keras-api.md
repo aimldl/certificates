@@ -1,15 +1,5 @@
 # Week2 Building Neural Networks with the TensorFlow and Keras API
 
-In this module, we discuss activation functions and how they are needed to allow deep neural networks to capture nonlinearities of the data. We then provide an overview of Deep Neural Networks using the Keras Sequential and Functional APIs. Next we describe model subclassing, which offers greater flexibility in model building. The module ends with a lesson on regularization.
-
-**Learning Objectives**
-
-- Describe how activation functions, loss, and optimizers work
-- Build a DNN model using the Keras Sequential API
-- Use feature columns in a Keras model
-- Save/load, and deploy a Keras model on Vertex AI
-- Describe model subclassing
-
 - [ ] Module Introdution, 30 sec
 
 ## Activation functions
