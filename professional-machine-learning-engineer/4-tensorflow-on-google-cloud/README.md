@@ -14,3 +14,10 @@
 
 [Week3-2 Summary](week3-2-summary.md)
 
+## Labs
+
+- https://github.com/GoogleCloudPlatform/training-data-analyst/tree/master/courses/machine_learning/deepdive2/introduction_to_tensorflow/labs
+- https://github.com/GoogleCloudPlatform/training-data-analyst/tree/master/courses/machine_learning/deepdive2/introduction_to_tensorflow/solutions
+
+
+
