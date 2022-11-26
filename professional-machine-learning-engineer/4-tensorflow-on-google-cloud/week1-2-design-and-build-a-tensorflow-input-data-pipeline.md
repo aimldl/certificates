@@ -21,6 +21,6 @@
 
 - [ ] Scaling data processing with tf.data and Keras preprocessing layers, 10 min
 - [ ] Lab intro: Classifying structured data using Keras preprocessing layers, 31 sec
-- [ ] Lab: Classifying structured data using Keras preprocessing layers
-- [ ] [Quiz] Design and Build Input Data Pipeline, 8 questions
+- [x] Lab: Classifying structured data using Keras preprocessing layers, 2h
+- [x] [Quiz] Design and Build Input Data Pipeline, 8 questions
 - [ ] Resources: Design and Build a TensorFlow Input Data Pipeline, 10 min
