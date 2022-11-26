@@ -1,6 +1,6 @@
 * Draft: 2022-11-26 (Sat)
 
-# Design and Build a TensorFlow Input Data Pipeline
+# Week1-2 Design and Build a TensorFlow Input Data Pipeline
 
 Data is the a crucial component of a machine learning model. Collecting the right data is not enough. You also need to make sure you put the right processes in place to clean, analyze and transform the data, as needed, so that the model can take the most signal of it as possible. In this module we discuss training on large datasets with tf.data, working with in-memory files, and how to get the data ready for training. Then we discuss embeddings, and end with an overview of scaling data with tf.keras preprocessing layers.
 

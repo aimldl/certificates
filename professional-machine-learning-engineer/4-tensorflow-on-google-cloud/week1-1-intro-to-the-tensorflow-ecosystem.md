@@ -1,6 +1,6 @@
 * Draft: 2022-11-26 (Sat)
 
-# Week 1. Introduction to the TensorFlow ecosystem
+# Week1-1 Introduction to the TensorFlow ecosystem
 
 - [ ] Introduction to TensorFlow, 5 min
 - [ ] TensorFlow API Hierarchy, 4 min

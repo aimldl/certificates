@@ -4,13 +4,13 @@
 
 ## Course Material
 
-[Week1. Introduction to the TensorFlow ecosystem](1-1-intro-to-the-tensorflow-ecosystem.md)
+[Week1-1 Introduction to the TensorFlow ecosystem](week1-1-intro-to-the-tensorflow-ecosystem.md)
 
-* [Design and Build a TensorFlow Input Data Pipeline](1-2-design-and-build-a-tensorflow-input-data-pipeline.md)
+[Week1-2 Design and Build a TensorFlow Input Data Pipeline](week1-2-design-and-build-a-tensorflow-input-data-pipeline.md)
 
-Week 2. Building Neural Networks in TensorFlow with Keras API
+[Week2 Building Neural Networks in TensorFlow with Keras API](week2-building-neural-networks-in-tensorflow-with-keras-api.md)
 
-Week 3. Training at Scale with Vertex AI
+[Week3-1 Training at Scale with Vertex AI](week3-1-training-at-scale-with-vertex-ai.md)
 
-* Summary
+[Week3-2 Summary](week3-2-summary.md)
 
