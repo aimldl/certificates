@@ -12,7 +12,9 @@ git clone https://github.com/GoogleCloudPlatform/training-data-analyst
 2. Open the .`ipynb file` for each lab, e.g. `3_keras_sequential_api.ipynb`
 3. The solution is available at [training-data-analyst > courses > machine_learning > deepdive2 > **introduction_to_tensorflow > solutions**](https://github.com/GoogleCloudPlatform/training-data-analyst/tree/master/courses/machine_learning/deepdive2/introduction_to_tensorflow/solutions)
 
+## To-do
 
+Not all the work for the labs is stored here. I may redo the missing labs and stored them here for completeness. 
 
 
 
