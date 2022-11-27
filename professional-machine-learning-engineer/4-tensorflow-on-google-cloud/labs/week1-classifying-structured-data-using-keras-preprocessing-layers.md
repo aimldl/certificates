@@ -1,4 +1,4 @@
-# Classifying Structured Data using Keras Preprocessing Layers
+# Lab: Classifying Structured Data using Keras Preprocessing Layers
 
 ## Summary
 

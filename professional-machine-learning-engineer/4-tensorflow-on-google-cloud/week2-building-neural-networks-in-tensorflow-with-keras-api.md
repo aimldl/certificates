@@ -12,10 +12,10 @@
 - [ ] Training neural networks with TensorFlow 2 and the Keras Sequential API, 7 min
 - [ ] Serving models in the cloud, 3 min
 - [ ] Lab intro: Introducing the Keras Sequential API on Vertex AI Platform, 33 sec
-- [x] Lab: Introducing the Keras Sequential API on Vertex AI Platform, 1h
+- [ ] [Lab: Introducing the Keras Sequential API on Vertex AI Platform](labs/week2-1-introducing-the-keras-sequential-api-on-vertex-ai-platform.md), 1h
 - [x] Training neural networks with TensorFlow 2 and the Keras Functional API, 9 min
 - [ ] Lab intro: Build a DNN using the Keras Functional API on Vertex AI Platform, 29 sec
-- [x] Lab: Build a DNN using the Keras Functional API on Vertex AI Platform, 2h
+- [ ] [Lab: Build a DNN using the Keras Functional API (on Vertex AI Platform)](week2-2-build-a-dnn-using-the-keras-functional-api.md), 2h
 - [ ] Model subclassing, 3 min
 - [ ] (Optional) Lab intro: Making new layers and models via subclassing, 39 sec
 - [ ] (Optional) Lab: Making new layers and models via subclassing, 2h
