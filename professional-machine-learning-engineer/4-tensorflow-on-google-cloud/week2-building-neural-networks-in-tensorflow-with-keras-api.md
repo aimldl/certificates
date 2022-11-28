@@ -1,6 +1,6 @@
 # Week2 Building Neural Networks with the TensorFlow and Keras API
 
-- [ ] Module Introdution, 30 sec
+- [ ] Module Introduction, 30 sec
 
 ## Activation functions
 

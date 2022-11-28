@@ -2,8 +2,7 @@
 
 Q1. Fill in the blanks. When sending training jobs to Vertex AI, it is common to split most of the logic into a _________ and a ___________ file.
 
-- task.py, model.py
-
+- **task.py, model.py**
 - 
   task.json, model.json
 
@@ -23,8 +22,7 @@ Q2. Which file is the entry point to your code that Vertex AI will start and con
 - 
   tmodel.avro
 
-- 
-  task.py
+- **task.py**
 
 Q3. When you package up a TensorFlow model as a Python Package, what statement should every Python module contain in every folder?
 
@@ -36,10 +34,9 @@ Q3. When you package up a TensorFlow model as a Python Package, what statement s
 - 
   tmodel.avro
 
-- 
-  an init_.py
+- **an init_.py**
 
-Q4. To make your code compatible with Verte AI, there are three basic steps that must be completed in a specific order. Choose the answer that best describes those steps.
+Q4. To make your code compatible with Vertex AI, there are three basic steps that must be completed in a specific order. Choose the answer that best describes those steps.
 
 - First, upload data to Google Cloud Storage. Then submit your training job with gcloud to train on Vertex AI. Next, move code into a trainer Python package. 
 
@@ -59,8 +56,6 @@ Q5. Fill in the blanks. You can use either pre-built containers or custom contai
 - 
   Region, source distribution, custom URI
 
-- 
-  Region, display-name, worker-pool-spec
-
+- **Region, display-name, worker-pool-spec**
 - 
   Cloud storage bucket name, display-name, worker-pool-spec
