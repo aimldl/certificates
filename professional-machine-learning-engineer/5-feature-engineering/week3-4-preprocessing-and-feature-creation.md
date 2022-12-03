@@ -6,5 +6,5 @@
 
 - [ ] Apache Beam and Dataflow, 4 min
 - [ ] Dataflow terms and concepts, 5 min
-- [ ] [Quiz] Preprocessing and Feature Creation, 7 questions
+- [x] [Quiz] Preprocessing and Feature Creation, 7 questions
 - [ ] Resources: Preprocessing and Feature Creation, Reading 10 min

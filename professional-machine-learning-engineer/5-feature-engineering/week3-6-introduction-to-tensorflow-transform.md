@@ -9,6 +9,6 @@
 - [ ] Transform phase, 4 min
 - [ ] Supporting serving, 2 min
 - [ ] Lab intro: Exploring tf.transform, 1 min
-- [ ] Lab: Exploring tf.transform, 2h
+- [x] Lab: Exploring tf.transform, 2h
 - [ ] [Quiz] Introduction to TensorFlow Transform, 4 questions
 - [ ] Resources: Introduction to TensorFlow Transform, Reading 10 min

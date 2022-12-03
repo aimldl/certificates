@@ -1,66 +1,95 @@
-# Quiz: Training at Scale with Vertex AI
+# Quiz: Preprocessing and Feature Creation
 
-Q1. Fill in the blanks. When sending training jobs to Vertex AI, it is common to split most of the logic into a _________ and a ___________ file.
+Question 1
+Which of these accurately describes the relationship between Apache Beam and Cloud Dataflow? 
 
-- task.py, model.py
+- [ ] Cloud Dataflow is the API for data pipeline building in java or python and Apache Beam is the implementation and execution framework.
 
-- 
-  task.json, model.json
+- [ ] 
+  They are the same.
 
-- 
-  task.avro, model.avro
+- [ ] 
+  Cloud Dataflow is the proprietary version of the Apache Beam API and the two are not compatible.
 
-- 
-  task.xml, model.xml
 
-Q2. Which file is the entry point to your code that Vertex AI will start and contains details such as “how to parse command-line arguments and where to write model outputs?
+Question 2
+True or False: The Filter method can be carried out in parallel and autoscaled by the execution framework:
 
-- model.py
+- [ ] True: Anything in Map or FlatMap can be parallelized by the Beam execution framework.
 
-- 
-  tmodel.json
+- [ ] 
+  False: Anything in Map or FlatMap can be parallelized by the Beam execution framework.
 
-- 
-  tmodel.avro
 
-- 
-  task.py
+Question 3
+What is the purpose of a Cloud Dataflow connector?
 
-Q3. When you package up a TensorFlow model as a Python Package, what statement should every Python module contain in every folder?
+.apply(TextIO.write().to(“gs://…”));
 
-- model.py
+- [ ] Connectors allow you to output the results of a pipeline to a specific data sink like Bigtable, Google Cloud Storage, flat file, BigQuery, and more.
 
-- 
-  tmodel.json
+- [ ] 
+  Connectors allow you to chain multiple data-processing steps together automatically so they process in parallel.
 
-- 
-  tmodel.avro
+- [ ] 
+  Connectors allow you to authenticate your pipeline as specific users who may have greater access to datasets.
 
-- 
-  an init_.py
 
-Q4. To make your code compatible with Verte AI, there are three basic steps that must be completed in a specific order. Choose the answer that best describes those steps.
 
-- First, upload data to Google Cloud Storage. Then submit your training job with gcloud to train on Vertex AI. Next, move code into a trainer Python package. 
+Question 4
+To run a pipeline you need something called a ________.
 
-- 
-  First, download data from Google Cloud Storage. Then submit your training job with gcloud to train on Vertex AI. Next, move code into a trainer Python package. 
 
-- 
-  First, upload data to Google Cloud Storage. Next, move code into a trainer Python package. Then submit your training job with gcloud to train on Vertex AI.
 
-- 
-  First, move code into a trainer Python package. Next, upload data to Google Cloud Storage. Then submit your training job with gcloud to train on Vertex AI.
+- [ ] runner
 
-Q5. Fill in the blanks. You can use either pre-built containers or custom containers to run training jobs. Both containers require you specify settings that Vertex AI needs to run your training code, including __________, ____________, and ________.
+- [ ] 
+  executor
 
-- Source distribution name, job name, worker pool
+- [ ] 
+  pipeline
 
-- 
-  Region, source distribution, custom URI
+- [ ] 
+  Apache Beam
 
-- 
-  Region, display-name, worker-pool-spec
 
-- 
-  Cloud storage bucket name, display-name, worker-pool-spec
+Question 5
+Your development team is about to execute this code block. What is your team about to do?
+
+ 
+
+
+We are compiling our Cloud Dataflow pipeline written in Java and are submitting it to the cloud for execution.
+
+Notice that we are calling mvn compile and passing in --runner=DataflowRunner.
+
+
+We are compiling our Cloud Dataflow pipeline written in Python and are loading the outputs of the executed pipeline inside of Google Cloud Storage (gs://)
+
+
+We are preparing a staging area in Google Cloud Storage for the output of our Cloud Dataflow pipeline and will be submitting our BigQuery job with a later command.
+
+
+Question 6
+True or False: A ParDo acts on all items at once (like a Map in MapReduce).
+
+ 
+
+True
+
+
+False. A ParDo acts on one item at a time (like a Map in MapReduce)
+
+
+Question 7
+What is one key advantage of preprocessing your features using Apache Beam?
+
+ 
+
+The same code you use to preprocess features in training and evaluation can also be used in serving.
+
+
+Apache Beam transformations are written in Standard SQL which is scalable and easy to author.
+
+
+Apache Beam code is often harder to maintain and run at scale than BigQuery preprocessing pipelines.

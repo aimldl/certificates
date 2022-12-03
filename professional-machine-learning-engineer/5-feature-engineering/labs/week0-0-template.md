@@ -2,7 +2,9 @@
 
 ## Summary
 
-- [training-data-analyst](https://github.com/GoogleCloudPlatform/training-data-analyst)/[courses](https://github.com/GoogleCloudPlatform/training-data-analyst/tree/master/courses)/[machine_learning](https://github.com/GoogleCloudPlatform/training-data-analyst/tree/master/courses/machine_learning)/[deepdive2](https://github.com/GoogleCloudPlatform/training-data-analyst/tree/master/courses/machine_learning/deepdive2)/[introduction_to_tensorflow](https://github.com/GoogleCloudPlatform/training-data-analyst/tree/master/courses/machine_learning/deepdive2/introduction_to_tensorflow)/[**solutions**](https://github.com/GoogleCloudPlatform/training-data-analyst/tree/master/courses/machine_learning/deepdive2/introduction_to_tensorflow/solutions) /  ...
+- [training-data-analyst > courses > machine_learning > deepdive2 > **feature_engineering**  > labs](https://github.com/GoogleCloudPlatform/training-data-analyst/tree/master/courses/machine_learning/deepdive2/feature_engineering/labs)
+- [training-data-analyst > courses > machine_learning > deepdive2 > **feature engineering > solutions**](https://github.com/GoogleCloudPlatform/training-data-analyst/tree/master/courses/machine_learning/deepdive2/feature_engineering/solutions)
+
 - I've added some additional comments in the following lines.
 - Each learning objective will correspond to a #TODO in the student lab notebook
 
@@ -10,11 +12,11 @@
 
 
 
-## Learning objectives
+### Learning objectives
 
 
 
-## Excerpts from the solution `.ipynb`
+## Source code/Excerpts from the solution `.ipynb`
 
 
 
@@ -23,8 +25,6 @@ cd training-data-analyst/courses/machine_learning/deepdive2/art_and_science_of_m
 ```
 
 
-
-## Source Code
 
 ```
 
