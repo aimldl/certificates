@@ -1,4 +1,4 @@
-# Lab: Vertex AI: Custom Training Job and Prediction Using Managed Datasets
+# Lab: Vertex AI: Hyperparameter Tuning
 
 ## Summary
 
@@ -6,15 +6,40 @@
 - I've added some additional comments in the following lines.
 - Each learning objective will correspond to a #TODO in the student lab notebook
 
-## Introduction
-
-
-
 ## Learning objectives
 
-- Create a dataset for tabular data.
-- Create a training package with custom code using Notebooks.
-- Deploy the trained model and get online predictions.
+- Modify training application code for hyperparameter tuning.
+- Launch a hyperparameter tuning job from the Vertex AI UI.
+
+## Agenda
+
+- Overview
+- Setup
+  - Enable the Vertex AI API
+  - Create dataset
+  - Create table
+- Task 1. Set up your environment
+- Task 2. Create a dataset
+- Task 3. Custom training package using Notebooks
+- Task 4. Model training
+- Task 5. Model evaluation
+- Task 6. Model deployment
+- Task 7. Model prediction
+- Task 8. Cleaning up
+- End your lab
+
+
+
+Setup > Enable the Vertex AI API
+
+- Go to [Vertex AI section of your Cloud Console](https://console.cloud.google.com/ai/platform?utm_source=codelabs&utm_medium=et&utm_campaign=CDR_sar_aiml_vertexio_&utm_content=-)
+- Click **Enable Vertex AI API**
+
+
+
+ Dataset ID: titanic, Data location: eu (multiple regions in European Union) and then click Create dataset.
+
+
 
 ## Excerpts from the solution `.ipynb`
 
