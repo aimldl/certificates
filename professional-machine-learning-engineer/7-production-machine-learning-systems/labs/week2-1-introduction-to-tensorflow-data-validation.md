@@ -2,24 +2,65 @@
 
 ## Purpose
 
+Understanding the features of
 
+- TensorFlow Extended > TensorFlow Data Validation (TFDV)
+  - useful for 
+    - comparing multiple datasets (e.g., training vs inference datasets)
+    - and reporting
 
-## Learning objectives
+Compare datasets
 
+- based on the Google PAIR Facets project.
 
+## Objectives
+
+- Review TFDV methods
+- Generate statistics
+- Visualize statistics
+- Infer a schema
+- Update a schema
+
+## Tasks
+
+1. Setup and requirements
+2. Clone course repo within your Vertex AI notebooks instance
+3. Introduction to TensorFlow data validation
+
+## About TFDV
+
+TFDV offers visualization capabilities which helps 
+
+- understand
+- validate
+- monitor your data.
+
+TFDV can be used for 
+
+- generating schemas 
+- statistics about the distribution of every feature in the dataset. 
 
 ## Related Files 
 
-Google docs > [Lab: Introduction to TensorFlow data validation](https://docs.google.com/document/d/1h5mDHV2LP7pAuLh_OBZQSJiUntexCb9xVdKdJ2PbAO8/edit#heading=h.eg0a9rka5ueb)
+Go to Google docs > [Lab: Introduction to TensorFlow data validation](https://docs.google.com/document/d/1h5mDHV2LP7pAuLh_OBZQSJiUntexCb9xVdKdJ2PbAO8/edit#heading=h.eg0a9rka5ueb)
 
-```bash
-git clone https://github.com/GoogleCloudPlatform/training-data-analyst
+My mirror files
+
+- ipynb_files/
+
+- - [tfdv_basic_spending.ipynb](ipynb_files/tfdv_basic_spending.ipynb)
+
+  - - Output all cleaned
+
+  - [tfdv_basic_spending-1.ipynb](ipynb_files/tfdv_basic_spending-1.ipynb)
+
+    - The package dependency issue failed the installation of TFDV.
+    - I tried both TF2.10 and TF.2.6 and both of them failed.
+    - TODO: Do the following as instructed in the notebook and re-do it.
+
 ```
-
-Soure code > [training-data-analyst](https://github.com/GoogleCloudPlatform/training-data-analyst)/[courses](https://github.com/GoogleCloudPlatform/training-data-analyst/tree/master/courses)/[machine_learning](https://github.com/GoogleCloudPlatform/training-data-analyst/tree/master/courses/machine_learning)/[deepdive2](https://github.com/GoogleCloudPlatform/training-data-analyst/tree/master/courses/machine_learning/deepdive2)/
-
-- [production_ml](https://github.com/GoogleCloudPlatform/training-data-analyst/tree/master/courses/machine_learning/deepdive2/production_ml)/
-  - labs
-    - Each learning objective will correspond to a #TODO in the student lab notebook
-  - solution
+Restart the kernel (Kernel > Restart kernel > Restart).
+Re-run the above cell and proceed further.
+Note: Please ignore any incompatibility warnings and errors.
+```
 

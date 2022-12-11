@@ -32,14 +32,17 @@ Soure code > [training-data-analyst](https://github.com/GoogleCloudPlatform/trai
   - [babyweight](https://github.com/GoogleCloudPlatform/training-data-analyst/tree/master/courses/machine_learning/deepdive2/production_ml/babyweight)/
     - [**train_deploy.ipynb**](https://github.com/GoogleCloudPlatform/training-data-analyst/blob/master/courses/machine_learning/deepdive2/production_ml/babyweight/train_deploy.ipynb)
     - Each learning objective will correspond to a #TODO in the student lab notebook
-  - solution
   
-- my mirror files
+  
 
-  - [ipynb_files/train_deploy-1_original_includes_bugs.ipynb](ipynb_files/train_deploy-1_original_includes_bugs.ipynb)
+My mirror files 
 
-  - TODO: [ipynb_files/train_deploy-2_stopped_due_to_a_bug-fix_it.ipynb](ipynb_files/train_deploy-2_stopped_due_to_a_bug-fix_it.ipynb)
+- ipynb_files/
 
-    
+  - [train_deploy-1_original_includes_bugs.ipynb](ipynb_files/train_deploy-1_original_includes_bugs.ipynb)
+    - Output all cleaned
+  - [train_deploy-2_stopped_due_to_a_bug-fix_it.ipynb](ipynb_files/train_deploy-2_stopped_due_to_a_bug-fix_it.ipynb)
+    - TODO
 
+  
 
