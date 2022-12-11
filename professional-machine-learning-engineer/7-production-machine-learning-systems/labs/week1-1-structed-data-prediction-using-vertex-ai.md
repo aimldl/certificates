@@ -17,7 +17,7 @@ Train, evaluate, and deploy a machine learning model
 - Training on Cloud AI Platform
 - Deploy trained model
 
-## Related Files 
+## Hands-on lab
 
 Google docs > [Lab: Structured data prediction using Vertex AI Platform](https://docs.google.com/document/d/17LiHfw71VeKXOLEOBC7Bf9LcdPvT8Vfqir7ulGR4k8s/edit#) 
 

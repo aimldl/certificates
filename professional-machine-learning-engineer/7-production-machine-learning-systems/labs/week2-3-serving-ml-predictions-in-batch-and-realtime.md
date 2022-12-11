@@ -29,38 +29,22 @@ Run Dataflow pipelines
     - into a BigQuery table.
 
 
-## Tasks
+## Steps to prepare the hands-on lab
 
 1. Setup and requirements
 2. Clone course repo within your Vertex AI notebooks instance
 3. Check project permissions
-4. Run the notebook to copy and trained the Vertex AI Platform model
+4. Open the notebook
+5. Do the hands-on lab
 
-## Related Files 
+## Hands-on lab 
 
-Google docs > 
+Google docs > [Lab: Serving ML Predictions in Batch and Real Time](https://docs.google.com/document/d/1HxQlSnEDmaybpUlJoUsspfcbksMwlkV8X2QVn7Z89Gc/edit#)
+
+Source code
 
 ```bash
 git clone https://github.com/GoogleCloudPlatform/training-data-analyst
 ```
 
-Soure code > [training-data-analyst](https://github.com/GoogleCloudPlatform/training-data-analyst)/[courses](https://github.com/GoogleCloudPlatform/training-data-analyst/tree/master/courses)/[machine_learning](https://github.com/GoogleCloudPlatform/training-data-analyst/tree/master/courses/machine_learning)/[deepdive2](https://github.com/GoogleCloudPlatform/training-data-analyst/tree/master/courses/machine_learning/deepdive2)/
-
-- [production_ml](https://github.com/GoogleCloudPlatform/training-data-analyst/tree/master/courses/machine_learning/deepdive2/production_ml)/
-  - [labs](https://github.com/GoogleCloudPlatform/training-data-analyst/tree/master/courses/machine_learning/deepdive2/production_ml/labs) > 
-    - Each learning objective will correspond to a #TODO in the student lab notebook
-  - [solutions](https://github.com/GoogleCloudPlatform/training-data-analyst/tree/master/courses/machine_learning/deepdive2/production_ml/solutions) > 
-
-My mirror files
-
-- ipynb_files/
-
-- - 
-
-  - - Output all cleaned
-
-  - 
-    - TODO: 
-
-## Backgrounds
-
+TODO: I didn't finish this lab. Open Google doc and do it again.

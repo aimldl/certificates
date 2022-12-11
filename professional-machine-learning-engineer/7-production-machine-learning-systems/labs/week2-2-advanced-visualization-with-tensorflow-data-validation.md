@@ -34,21 +34,24 @@ In our dataset
 - Check for drift and skew
 - Freeze the schema
 
-## Tasks
+## Steps to prepare the hands-on lab
 
 1. Setup and requirements
 2. Clone course repo within your Vertex AI notebooks instance
-3. Create advanced visualizations with TensorFlow Data Validation
+3. Open the notebook
+4. Do the hands-on lab
 
-## Related Files 
+## Hands-on lab 
 
 Google docs > [Lab: Advanced Visualizations with TensorFlow Data Validation](https://docs.google.com/document/d/1MLvUG0Bdm0vqhRWeK2k_95dyX1b7ncNi5Bb5cEQ5UhE/edit#heading=h.eg0a9rka5ueb) 
+
+Source code
 
 ```bash
 git clone https://github.com/GoogleCloudPlatform/training-data-analyst
 ```
 
-Soure code > [training-data-analyst](https://github.com/GoogleCloudPlatform/training-data-analyst)/[courses](https://github.com/GoogleCloudPlatform/training-data-analyst/tree/master/courses)/[machine_learning](https://github.com/GoogleCloudPlatform/training-data-analyst/tree/master/courses/machine_learning)/[deepdive2](https://github.com/GoogleCloudPlatform/training-data-analyst/tree/master/courses/machine_learning/deepdive2)/
+[training-data-analyst](https://github.com/GoogleCloudPlatform/training-data-analyst)/[courses](https://github.com/GoogleCloudPlatform/training-data-analyst/tree/master/courses)/[machine_learning](https://github.com/GoogleCloudPlatform/training-data-analyst/tree/master/courses/machine_learning)/[deepdive2](https://github.com/GoogleCloudPlatform/training-data-analyst/tree/master/courses/machine_learning/deepdive2)/
 
 - [production_ml](https://github.com/GoogleCloudPlatform/training-data-analyst/tree/master/courses/machine_learning/deepdive2/production_ml)/
   - [labs](https://github.com/GoogleCloudPlatform/training-data-analyst/tree/master/courses/machine_learning/deepdive2/production_ml/labs) > [tfdv_advanced_taxi.ipynb](https://github.com/GoogleCloudPlatform/training-data-analyst/blob/master/courses/machine_learning/deepdive2/production_ml/labs/tfdv_advanced_taxi.ipynb)

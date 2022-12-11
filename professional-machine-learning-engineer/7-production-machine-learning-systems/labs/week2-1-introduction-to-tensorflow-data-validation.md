@@ -21,11 +21,12 @@ Compare datasets
 - Infer a schema
 - Update a schema
 
-## Tasks
+## Steps to prepare the hands-on lab
 
 1. Setup and requirements
 2. Clone course repo within your Vertex AI notebooks instance
-3. Introduction to TensorFlow data validation
+3. Open the notebook
+4. Do the hands-on lab
 
 ## About TFDV
 
@@ -40,7 +41,7 @@ TFDV can be used for
 - generating schemas 
 - statistics about the distribution of every feature in the dataset. 
 
-## Related Files 
+## Hands-on lab
 
 Go to Google docs > [Lab: Introduction to TensorFlow data validation](https://docs.google.com/document/d/1h5mDHV2LP7pAuLh_OBZQSJiUntexCb9xVdKdJ2PbAO8/edit#heading=h.eg0a9rka5ueb)
 

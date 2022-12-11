@@ -3,49 +3,51 @@
 - 2 hours
 - https://www.coursera.org/learn/gcp-production-ml-systems/gradedLti/pD2ns/lab-distributed-training-with-keras
 
-- ## Purpose
 
-  Understand how TensorFlow Data Validation (TFDV) can be used to 
+## Purpose
 
-  - 
+This lab uses
 
-  ## Objectives
+- tf.distribute.Strategy API > tf.distribute.MirroredStrategy which
+  - copy, essentially, all of the model's variables to each processor.
+  - use [all-reduce](http://mpitutorial.com/tutorials/mpi-reduce-and-allreduce/) to combine the gradients from all processors
+  - apply the combined value to all copies of the model.
 
-  - Install TFDV
-  - 
+## Objectives
 
-  ## Tasks
+- Define a distribution strategy and set an input pipeline.
+- Create the Keras model.
+- Define the callbacks.
+- Train and evaluate the model.
 
-  1. Setup and requirements
-  2. Clone course repo within your Vertex AI notebooks instance
-  3. 
+## Tasks
 
-  ## Related Files 
+1. Prepare the JupyterLab environment with Vertex Workbench
+2. Open the Jupyter notebook
+3. Do the hands-on lab
 
-  Google docs > 
+For details, refer to [Lab: Distributed Training with Keras](https://docs.google.com/document/d/1PZowLJ0lk-Uc5rAnwu71hlC6LVpeiFVkFZLUUQb9fDU/edit#) (Google docs).
 
-  ```bash
-  git clone https://github.com/GoogleCloudPlatform/training-data-analyst
-  ```
+My mirror
 
-  Soure code > [training-data-analyst](https://github.com/GoogleCloudPlatform/training-data-analyst)/[courses](https://github.com/GoogleCloudPlatform/training-data-analyst/tree/master/courses)/[machine_learning](https://github.com/GoogleCloudPlatform/training-data-analyst/tree/master/courses/machine_learning)/[deepdive2](https://github.com/GoogleCloudPlatform/training-data-analyst/tree/master/courses/machine_learning/deepdive2)/
+- [keras.ipynb](ipynb_files/keras.ipynb) has no output.
 
-  - [production_ml](https://github.com/GoogleCloudPlatform/training-data-analyst/tree/master/courses/machine_learning/deepdive2/production_ml)/
-    - [labs](https://github.com/GoogleCloudPlatform/training-data-analyst/tree/master/courses/machine_learning/deepdive2/production_ml/labs) > 
-      - Each learning objective will correspond to a #TODO in the student lab notebook
-    - [solutions](https://github.com/GoogleCloudPlatform/training-data-analyst/tree/master/courses/machine_learning/deepdive2/production_ml/solutions) > 
+- [keras-working_code.ipynb](ipynb_files/keras-working_code.ipynb)
 
-  My mirror files
-
-  - ipynb_files/
-
-  - - 
-
-    - - Output all cleaned
-
-    - 
-      - TODO: 
-
-  ## Backgrounds
+  - This notebook failed on Vertex Workbench Notebook on TF2.6 without GPU.
+  - Running the notebook on TF2.10 without GPU worked just fine.
 
   
+
+- Running the first code resulted in an error.
+
+```python
+import tensorflow_datasets as tfds
+import tensorflow as tf
+
+import os
+```
+
+```python
+AttributeError: module 'tensorflow_datasets.core' has no attribute 'utils
+```
