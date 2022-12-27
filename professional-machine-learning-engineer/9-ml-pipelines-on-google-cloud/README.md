@@ -1,30 +1,33 @@
 # ML Pipelines on Google Cloud
 
-This is an advanced level course.
-
-- Prerequisites
-  - A good ML background
-    - Completed the courses in the ML with Tensorflow on GCP specialization
-      - (or at least a few courses) 
-  - Experience of creating/deploying ML pipelines
-  - Completed the MLOps Fundamentals course.
-
-# About
-
+- This is an advanced level course.
 - Learn from ML Engineers and Trainers 
-  - who work with the state-of-the-art development of ML pipelines at Google Cloud.  
+  - who work with the state-of-the-art development of ML pipelines at Google Cloud
 
-- TensorFlow Extended (or TFX)
-  - Google’s production machine learning platform based on TensorFlow 
-    - for management of ML pipelines and metadata. 
-  - Learn about pipeline components and pipeline orchestration with TFX. 
-- Learn how you can automate your pipeline 
-  - through continuous integration and continuous deployment,
-  - and how to manage ML metadata.
+# Prerequisites
 
-- Discuss how we can automate and reuse ML pipelines 
-  - across multiple ML frameworks 
-    - such as tensorflow, pytorch, scikit learn, and xgboost.  
+1. ML background > Courses in the ML
+
+   e.g. Tensorflow on GCP specialization
+
+2. ML pipelines experience
+
+   e.g. MLOps Fundamentals course.
+
+# Key Topics / About
+
+- ML pipelines
+  - Automate and reuse ML pipelines 
+    - across multiple ML frameworks 
+      - tensorflow, pytorch, scikit learn, xgboost
+- TFX (TensorFlow Extended)
+  - manage ML pipelines and metadata
+  - learn about
+    - pipeline components
+    - pipeline orchestration
+  - automate your pipeline 
+    - through CI/CD
+- MLflow
+  - manage the complete ML lifecycle 
 - Cloud Composer
-  - to orchestrate your continuous training pipelines.
-- Go over how to use MLflow for managing the complete machine learning life cycle. 
+  - orchestrate your continuous training pipelines
