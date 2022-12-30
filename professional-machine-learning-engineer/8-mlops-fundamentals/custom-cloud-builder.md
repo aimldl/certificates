@@ -18,7 +18,7 @@ Examples include when you need to
 
 
 
-Create a custom builder image
+## 1. Create a custom builder image
 
 1-1. Create the `Dockerfile`. For example,
 
@@ -37,7 +37,7 @@ Create a custom builder image
 - gcr (Google Container Repository)
 - `project-id` is used instead of `cloud-builders`.
 
-To use it,
+## 2. Use the customer built image
 
 Specify the builder in the `name` field of a build step:
 

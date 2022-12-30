@@ -262,6 +262,7 @@ def pipeline_export_gcs(fitted_pipeline: Pipeline, model_dir: str) -> str:
     blob = b.blob(export_path)
     blob.upload_from_string(pickle.dumps(fitted_pipeline))
     return scheme + "//" + os.path.join(bucket, export_path)
+    
 def prepare_report(cv_score: float, model_params: dict, classification_report: str, columns: List[str], example_data: np.ndarray) -> str:
     '''
     Prepares a training report in Text
@@ -307,6 +308,7 @@ Example of GCP API request body:
     predict_example = buffer_example_data,
     json_example = json.dumps(example_data.tolist()))
     return report
+    
 def report_export_gcs(report: str, report_dir: str) -> None:
     '''
     Exports training job report to GCS
@@ -325,6 +327,7 @@ def report_export_gcs(report: str, report_dir: str) -> None:
     blob = b.blob(export_path)
     blob.upload_from_string(report)
     return scheme + "//" + os.path.join(bucket, export_path)
+    
 # Define all the command-line arguments your model can accept for training
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
@@ -430,24 +433,30 @@ if __name__ == '__main__':
     #as we will be using cross validation, we will have just a training set and a single test set.
     # we will merge the test and validation to achieve an 80%-20% split
     df_test = pd.concat([df_test,df_valid])
+    
     logging.info('Defining model parameters')    
     model_params = dict()
     model_params['kernel'] = arguments['model_param_kernel']
     model_params['degree'] = arguments['model_param_degree']
     model_params['C'] = arguments['model_param_C']
     model_params['probability'] = arguments['model_param_probability']
+    
     df_train = clean_missing_numerics(df_train, NUMERIC_FEATURES)
     df_test = clean_missing_numerics(df_test, NUMERIC_FEATURES)
+    
     logging.info('Running feature selection')    
     X_train, y_train = data_selection(df_train, ALL_COLUMNS, LABEL)
     X_test, y_test = data_selection(df_test, ALL_COLUMNS, LABEL)
+    
     logging.info('Training pipelines in CV')   
     clf = pipeline_builder(model_params, BINARY_FEATURES_IDX, NUMERIC_FEATURES_IDX, CATEGORICAL_FEATURES_IDX)
     cv_score = train_pipeline(clf, X_train, y_train)
+    
     logging.info('Export trained pipeline and report')   
     pipeline_export_gcs(clf, arguments['model_dir'])
     y_pred = clf.predict(X_test)
     test_score = f1_score(y_test, y_pred, average='weighted')
+    
     logging.info('f1score: '+ str(test_score))    
     report = prepare_report(cv_score,
                         model_params,
@@ -457,25 +466,4 @@ if __name__ == '__main__':
     report_export_gcs(report, arguments['model_dir'])
     logging.info('Training job completed. Exiting...')
 ```
-
-```
-
-```
-
-
-
-```python
-```
-
-<img src='images/xxx'>
-
-
-
-<img src='images/xxx'>
-
-
-
-<img src='images/xxx'>
-
-
 

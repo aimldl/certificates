@@ -13,7 +13,7 @@ What percent of system code does the ML model account for?
 - [ ] 50%
 - [ ] 90%
 
-### 
+
 
 Question 2
 
@@ -25,7 +25,7 @@ Match the three types of data ingest with an appropriate source of training data
 - [ ] Streaming (BigQuery), structured batch (Pub/Sub), unstructured batch (Cloud Storage)
 - [ ] Streaming batch (Dataflow), structured batch (BigQuery), stochastic (App Engine)
 
-### 
+
 
 Question 3
 
@@ -38,7 +38,7 @@ What is the responsibility of **model evaluation and validation** components?
 - [x] To ensure that the models are good before moving them into **a production/staging environment**.
 - [ ] To ensure that the models are good after moving them into a production/staging environment.
 
-### 
+
 
 Question 4
 
@@ -51,7 +51,7 @@ Which type of training do you use if your data set doesn’t change over time?
 - [ ] Dynamic training
 - [ ] Real-time training
 
-### 
+
 
 Question 5
 
@@ -91,7 +91,7 @@ Vertex AI has a unified data preparation tool that supports **image, tabular, te
 - [ ] A Google Cloud database that acts as an input for both AutoML and custom training jobs.
 - [x] A Google Cloud Storage bucket that acts as an input for both AutoML and custom training jobs.
 
-### 
+
 
 Question 7
 
@@ -106,7 +106,7 @@ I'm not 100% sure.
 - [x] True
 - [ ] False
 
-### 
+
 
 Question 8
 
